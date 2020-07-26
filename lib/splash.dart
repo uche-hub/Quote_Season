@@ -90,6 +90,7 @@ class _SplashScreenState extends State<SplashScreen> with TickerProviderStateMix
   Widget build(BuildContext context) {
     final double width = MediaQuery.of(context).size.width;
     return Scaffold(
+      backgroundColor: Colors.blueGrey,
       body: Container(
         width: double.infinity,
         child: Stack(
